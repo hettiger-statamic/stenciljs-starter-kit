@@ -21,4 +21,5 @@ export_paths:
   - webpack.mix.js
   - .nvmrc
   - README.md
+  - CHANGELOG.md
   - LICENSE
