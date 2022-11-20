@@ -1,5 +1,5 @@
 {
-    "name": "hettiger/statamic-stenciljs-starter-kit",
+    "name": "hettiger-statamic/stenciljs-starter-kit",
     "extra": {
         "statamic": {
             "name": "StencilJS Starter Kit",
