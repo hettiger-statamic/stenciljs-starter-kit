@@ -1,0 +1,9 @@
+{
+    "name": "hettiger/statamic-stenciljs-starter-kit",
+    "extra": {
+        "statamic": {
+            "name": "StencilJS Starter Kit",
+            "description": "Get up and running quickly using Statamic, StencilJS, TailwindCSS and Storybook."
+        }
+    }
+}

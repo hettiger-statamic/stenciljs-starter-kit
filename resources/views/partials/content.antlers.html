@@ -1,0 +1,14 @@
+<article class="prose">
+    {{ content }}
+        {{ if type == "text" }}
+            <div class="text">
+                {{ text }}
+            </div>
+
+        {{ elseif type == "quote" }}
+            <my-quote author="{{ author }}">
+                {{ body }}
+            </my-quote>
+        {{ /if }}
+    {{ /content }}
+</article>

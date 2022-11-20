@@ -1,0 +1,37 @@
+$spacing: 1rem;
+$border: 1px solid;
+
+:host {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing;
+  padding: $spacing 0;
+  border-top: $border;
+  border-bottom: $border;
+  text-align: center;
+}
+
+::slotted(*) {
+  display: inline;
+}
+
+::slotted(*:first-child) {
+  margin-top: 0;
+}
+
+::slotted(*:last-child) {
+  margin-bottom: 0;
+}
+
+.body {
+  display: inline-block;
+  font-style: italic;
+}
+
+.author {
+  font-size: .8rem;
+}

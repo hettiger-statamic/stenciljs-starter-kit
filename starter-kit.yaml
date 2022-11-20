@@ -1,0 +1,24 @@
+export_paths:
+  - content
+  - resources/blueprints
+  - resources/components/.storybook
+  - resources/components/src
+  - resources/components/.editorconfig
+  - resources/components/.gitignore
+  - resources/components/.npmrc
+  - resources/components/.nvmrc
+  - resources/components/.prettierrc.json
+  - resources/components/LICENSE
+  - resources/components/package.json
+  - resources/components/package-lock.json
+  - resources/components/readme.md
+  - resources/components/stencil.config.ts
+  - resources/components/tsconfig.json
+  - resources/css
+  - resources/views
+  - package.json
+  - tailwind.config.js
+  - webpack.mix.js
+  - .nvmrc
+  - README.md
+  - LICENSE
